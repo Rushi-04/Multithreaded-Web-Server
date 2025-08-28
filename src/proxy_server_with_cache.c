@@ -384,9 +384,9 @@ int main(int argc, char * argv[]) {
 
     //creating the proxy socket
 	proxy_socketId = socket(AF_INET, SOCK_STREAM, 0);
-
+  
 	if( proxy_socketId < 0)
-	{
+	{  
 		perror("Failed to create socket.\n");
 		exit(1);
 	}
