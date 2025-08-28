@@ -420,7 +420,7 @@ int main(int argc, char * argv[]) {
 	int i = 0; // Iterator for thread_id (tid) and Accepted Client_Socket for each thread
 	int Connected_socketId[MAX_CLIENTS];   // This array stores socket descriptors of connected clients
 
-    // Infinite Loop for accepting connections
+    // Infinite Loop for accepting connections   
 	while(1)
 	{
 		
