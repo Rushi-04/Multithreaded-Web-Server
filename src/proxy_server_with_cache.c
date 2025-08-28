@@ -408,7 +408,7 @@ int main(int argc, char * argv[]) {
 	}  
 	printf("Binding on port: %d\n",port_number);  
 
-    // Proxy socket listening to the requests
+    // Proxy socket listening to the requests 
 	int listen_status = listen(proxy_socketId, MAX_CLIENTS);  
 
 	if(listen_status < 0 )
