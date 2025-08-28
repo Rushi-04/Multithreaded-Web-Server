@@ -396,7 +396,7 @@ int main(int argc, char * argv[]) {
         perror("setsockopt(SO_REUSEADDR) failed\n");
 
 	bzero((char*)&server_addr, sizeof(server_addr));  
-	server_addr.sin_family = AF_INET;
+	server_addr.sin_family = AF_INET;    
 	server_addr.sin_port = htons(port_number); // Assigning port to the Proxy
 	server_addr.sin_addr.s_addr = INADDR_ANY; // Any available adress assigned   
       
